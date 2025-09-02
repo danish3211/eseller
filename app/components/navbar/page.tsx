@@ -4,7 +4,7 @@ import Link from "next/link";
 
 export default function Navbar() {
   return (
-    <nav className="w-full flex items-center justify-between px-8 py-4 bg-white">
+    <div className="w-full flex items-center justify-between px-8 py-4 bg-white">
  
       <div className="flex items-center space-x-2">
            <Image
@@ -44,6 +44,6 @@ export default function Navbar() {
       >
         📞 Contact
       </Link>
-    </nav>
+    </div>
   );
 }
